@@ -1,0 +1,4 @@
+.toggle {
+    -unity-text-align: middle-center;
+    align-self: flex-start;
+}

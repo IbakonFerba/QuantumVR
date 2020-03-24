@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:ue="UnityEditor.UIElements"
+    xmlns:qvr="FK.QuantumVR.Editor.UIElements"
+    xmlns:fk="FK.UIElements"
+
+xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+        <ue:Toolbar>
+            <ue:ToolbarButton name="sceneSetupButton" text="Run Scene Setup"/>
+            <ue:ToolbarSpacer/>
+            <ue:ToolbarButton name="createSpatialCellButton" text="Create Spatial Cell"/>
+            <ue:ToolbarToggle name="selectStartCellButton" class="toggle" text="Select Start Cell"/>
+        </ue:Toolbar>
+        <qvr:GraphView name="graphView"/>
+</UXML>

@@ -1,0 +1,16 @@
+﻿{
+    "name": "UIElements_Editor",
+    "references": [
+        "GUID:67dac78419a6e6247be02dea65eec78c"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

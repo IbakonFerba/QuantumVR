@@ -1,0 +1,23 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:ue="UnityEditor.UIElements">
+    <ui:VisualElement name="root">
+        <ue:PropertyField binding-path="StartCellGuid" name="start-cell-guid-field" />
+        <ui:Foldout name="nodes" text="Nodes">
+            <ui:VisualElement name="node-list">
+                
+            </ui:VisualElement>
+            <ui:VisualElement name="button-area" class="button-container">
+                <ui:TextField name="node-guid-field" class="add-guid-field"/>
+                <ui:Button name="add-node-button" text="Add Node" class="add-button"/>
+            </ui:VisualElement>
+        </ui:Foldout>
+        <ui:Foldout name="connections" text="Connections">
+            <ui:VisualElement name="connection-list">
+
+            </ui:VisualElement>
+            <ui:VisualElement name="button-area" class="button-container">
+                <ui:TextField name="connection-guid-field" class="add-guid-field"/>
+                <ui:Button name="add-connection-button" text="Add Connection" class="add-button"/>
+            </ui:VisualElement>
+        </ui:Foldout>
+    </ui:VisualElement>
+</UXML>

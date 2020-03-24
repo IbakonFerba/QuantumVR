@@ -1,0 +1,109 @@
+{
+	"PortalColliderSize": 0.100000001490116,
+	"DoSceneAutoSetup": true,
+	"DefaultSpatialCellMapLocation": "Assets/QuantumVR Maps",
+	"MaxSpatialLayers": 9,
+	"UnityLayers": [
+		"CompressedSpaceLayer1",
+		"CompressedSpaceLayer2",
+		"CompressedSpaceLayer3",
+		"CompressedSpaceLayer4",
+		"CompressedSpaceLayer5",
+		"CompressedSpaceLayer6",
+		"CompressedSpaceLayer7",
+		"CompressedSpaceLayer8"
+	],
+	"ActiveLayerPortalSurfaceQueue": 1999,
+	"DepthClearQueue": 16,
+	"RenderQueueRanges": [
+		{
+			"Portals": [
+				0,
+				1752,
+				15
+			],
+			"Objects": [
+				1753,
+				1998
+			]
+		},
+		{
+			"Portals": [
+				1,
+				1505,
+				14
+			],
+			"Objects": [
+				1506,
+				1751
+			]
+		},
+		{
+			"Portals": [
+				2,
+				1258,
+				13
+			],
+			"Objects": [
+				1259,
+				1504
+			]
+		},
+		{
+			"Portals": [
+				3,
+				1011,
+				12
+			],
+			"Objects": [
+				1012,
+				1257
+			]
+		},
+		{
+			"Portals": [
+				4,
+				764,
+				11
+			],
+			"Objects": [
+				765,
+				1010
+			]
+		},
+		{
+			"Portals": [
+				5,
+				517,
+				10
+			],
+			"Objects": [
+				518,
+				763
+			]
+		},
+		{
+			"Portals": [
+				6,
+				270,
+				9
+			],
+			"Objects": [
+				271,
+				516
+			]
+		},
+		{
+			"Portals": [
+				7,
+				23,
+				8
+			],
+			"Objects": [
+				24,
+				269
+			]
+		}
+	],
+	"LogLevel": 1
+}

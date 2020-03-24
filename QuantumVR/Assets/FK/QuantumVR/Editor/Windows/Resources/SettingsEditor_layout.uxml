@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements"
+      xmlns:ue="UnityEditor.UIElements">
+    <ui:VisualElement name="root">
+        <ui:Style path="SettingsEditor_styles"/>
+
+        <ue:Toolbar name="toolbar" class="toolbar">
+            <ui:Image name="logo" class="logo"/>
+            <ue:ToolbarSpacer/>
+            <ue:ToolbarButton name="reset_button" class="toolbar-button" text="Reset to Default"
+                              tooltip="Resets all settings to their default values and saves them"/>
+            <ue:ToolbarButton name="save_button" class="toolbar-button confirm-button" text="Save"/>
+            <ue:ToolbarSpacer/>
+        </ue:Toolbar>
+
+        <ui:ScrollView name="data_container" class="container">
+            <ui:Image name="big_logo" class="big-logo"/>
+            <ui:Box name="rendering_container" class="container">
+                <ui:Label name="rendering_label" text="Rendering" class="section-label"/>
+
+                <ui:VisualElement name="number_of_portals">
+                    <ui:Label name="label" class="value-label" text="Number of rendered Portals:"
+                              tooltip="The number of portals that can be rendered at the same time. If you have performance issues, lowering this may help. Due to the size of the stencil buffer, this is capped to 8"/>
+                    <ui:VisualElement name="slider_container" class="horizontal-container">
+                        <ui:SliderInt name="slider" class="full-flex" value="8" low-value="1" high-value="8"/>
+                        <ui:VisualElement name="space_0" class="spacer"/>
+                        <ue:IntegerField name="value_field" class="slider-value-field" value="8"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+
+                <ui:VisualElement name="queue_range">
+                    <ui:Label name="label" class="value-label vertically-spaced-element" text="Render Queue Range:"
+                              tooltip="The range of render Queue values that will be used for QuantumVR rendering"/>
+                    <ui:VisualElement name="slider_container" class="horizontal-container">
+                        <ue:IntegerField name="min_value_field" class="slider-value-field" value="0"
+                                         tooltip="Min Range"/>
+                        <ui:VisualElement name="space_0" class="spacer"/>
+                        <ui:MinMaxSlider name="min_max_slider" class="full-flex" low-limit="0" high-limit="5000"
+                                         min-value="0" max-value="1999"/>
+                        <ui:VisualElement name="space_0" class="spacer"/>
+                        <ue:IntegerField name="max_value_field" class="slider-value-field" value="1999"
+                                         tooltip="Max Range"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                
+            </ui:Box>
+
+            <ui:Box name="interaction" class="container vertically-spaced-element">
+                <ui:Label name="interaction_label" text="Interaction" class="section-label"/>
+                <ui:VisualElement name="portal_collider">
+                    <ui:Label name="label" class="value-label"
+                              text="Portal Collider Depth:"/>
+                    <ue:FloatField name="value_field" value="0.1"/>
+                </ui:VisualElement>
+            </ui:Box>
+
+            <ui:Box name="logging" class="container vertically-spaced-element">
+                <ui:Label name="logging_label" text="Logging" class="section-label"/>
+                <ui:VisualElement name="logLevel">
+                    <ui:Label name="label" class="value-label"
+                              text="Log Level:"/>
+                </ui:VisualElement>
+            </ui:Box>
+
+            <ui:Box name="editor" class="container vertically-spaced-element">
+                <ui:Label name="editor_label" text="Editor" class="section-label"/>
+                <ui:Toggle name="auto_scene_setup_toggle" text="Automatic Scene Setup" tooltip="If enabled, every scene will be checked whether it is set up for QuantumVR when it is opened and you will be prompted to run the setup if it is not"/>
+                <ui:VisualElement name="default_spatial_cell_map_location">
+                    <ui:Label name="label" class="value-label vertically-spaced-element"
+                              text="Default Spatial Cell Map Asset Location:"/>
+                    <ui:Button name="path_button" text="Assets/QuantumVR Maps" class="path-button"/>
+                </ui:VisualElement>
+            </ui:Box>
+
+        </ui:ScrollView>
+
+    </ui:VisualElement>
+</UXML>

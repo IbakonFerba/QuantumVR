@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c878b9becc98604b86b376cc538e432, type: 3}
+  m_Name: TestingMap
+  m_EditorClassIdentifier: 
+  Nodes:
+    _keys:
+    - _serializedGuid: 9aa3e176-8e9c-48a2-86af-93e62e04a1c1
+    - _serializedGuid: f9966804-681b-4034-8c0e-1344094d2956
+    _values:
+    - CellGuid:
+        _serializedGuid: 9aa3e176-8e9c-48a2-86af-93e62e04a1c1
+      Connections:
+      - _serializedGuid: 01000000-0000-0000-0000-000000000000
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Name: 
+      Position: {x: 0, y: 0}
+    - CellGuid:
+        _serializedGuid: f9966804-681b-4034-8c0e-1344094d2956
+      Connections:
+      - _serializedGuid: 10000000-0000-0000-0000-000000000000
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Name: 
+      Position: {x: 0, y: 0}
+  Connections:
+    _keys:
+    - _serializedGuid: 01000000-0000-0000-0000-000000000000
+    - _serializedGuid: 10000000-0000-0000-0000-000000000000
+    _values:
+    - PortalGuid:
+        _serializedGuid: 01000000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: f9966804-681b-4034-8c0e-1344094d2956
+    - PortalGuid:
+        _serializedGuid: 10000000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 9aa3e176-8e9c-48a2-86af-93e62e04a1c1
+  StartCellGuid:
+    _serializedGuid: 9aa3e176-8e9c-48a2-86af-93e62e04a1c1
+  ViewportPosition: {x: 0, y: 0}
+  ViewportZoomLevel: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4db5f8b835c78a40b160d1ec20ce551, type: 3}
+  m_Name: QuantumVRPackageDefinition
+  m_EditorClassIdentifier: 
+  _packageName: QuantumVR
+  _targetPath: D:/Dokumente/Studium/Bachelor/Project/dev
+  _paths:
+  - Assets/FK/JSON
+  - Assets/FK/QuantumVR
+  - Assets/FK/UIElements
+  - Assets/FK/Utility/Scripts/Utility.asmdef
+  - Assets/FK/Utility/Scripts/CoroutineHost.cs
+  - Assets/FK/Utility/Scripts/ColorUtility.cs
+  - Assets/FK/Utility/Scripts/OBB.cs
+  - Assets/FK/Utility/Scripts/SerializableDictionary.cs
+  - Assets/FK/Utility/Scripts/SerializableGuid.cs
+  - Assets/FK/Utility/Scripts/VersionControl/VersionControlUtils.cs
+  - Assets/FK/Utility/Scripts/Extensions/BinaryUtility.cs
+  - Assets/FK/Utility/Scripts/Extensions/ArrayAndListExtensions.cs
+  - Assets/FK/Utility/Scripts/Singleton.cs
+  - Assets/FK/Utility/Scripts/Extensions/MathExtensionMethods.cs
+  - Assets/FK/Utility/Scripts/Extensions/GameObjectExtensions.cs
+  _showPackageAfterExport: 1

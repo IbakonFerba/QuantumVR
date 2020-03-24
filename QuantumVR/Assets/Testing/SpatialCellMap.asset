@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c878b9becc98604b86b376cc538e432, type: 3}
+  m_Name: SpatialCellMap
+  m_EditorClassIdentifier: 
+  Nodes:
+    _keys:
+    - _serializedGuid: 10000000-0000-0000-0000-000000000000
+    - _serializedGuid: 20000000-0000-0000-0000-000000000000
+    - _serializedGuid: 30000000-0000-0000-0000-000000000000
+    - _serializedGuid: 40000000-0000-0000-0000-000000000000
+    - _serializedGuid: 50000000-0000-0000-0000-000000000000
+    - _serializedGuid: 60000000-0000-0000-0000-000000000000
+    _values:
+    - CellGuid:
+        _serializedGuid: 10000000-0000-0000-0000-000000000000
+      Connections:
+      - _serializedGuid: a0300000-0000-0000-0000-000000000000
+      - _serializedGuid: b0100000-0000-0000-0000-000000000000
+      - _serializedGuid: c0500000-0000-0000-0000-000000000000
+      - _serializedGuid: d0400000-0000-0000-0000-000000000000
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Name: 
+      Position: {x: 0, y: 0}
+    - CellGuid:
+        _serializedGuid: 20000000-0000-0000-0000-000000000000
+      Connections:
+      - _serializedGuid: b1000000-0000-0000-0000-000000000000
+      - _serializedGuid: f1200000-0000-0000-0000-000000000000
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Name: 
+      Position: {x: 0, y: 0}
+    - CellGuid:
+        _serializedGuid: 30000000-0000-0000-0000-000000000000
+      Connections:
+      - _serializedGuid: e2300000-0000-0000-0000-000000000000
+      - _serializedGuid: f2100000-0000-0000-0000-000000000000
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Name: 
+      Position: {x: 0, y: 0}
+    - CellGuid:
+        _serializedGuid: 40000000-0000-0000-0000-000000000000
+      Connections:
+      - _serializedGuid: a3000000-0000-0000-0000-000000000000
+      - _serializedGuid: e3200000-0000-0000-0000-000000000000
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Name: 
+      Position: {x: 0, y: 0}
+    - CellGuid:
+        _serializedGuid: 50000000-0000-0000-0000-000000000000
+      Connections:
+      - _serializedGuid: d4000000-0000-0000-0000-000000000000
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Name: 
+      Position: {x: 0, y: 0}
+    - CellGuid:
+        _serializedGuid: 60000000-0000-0000-0000-000000000000
+      Connections:
+      - _serializedGuid: c5000000-0000-0000-0000-000000000000
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Name: 
+      Position: {x: 0, y: 0}
+  Connections:
+    _keys:
+    - _serializedGuid: a0300000-0000-0000-0000-000000000000
+    - _serializedGuid: a3000000-0000-0000-0000-000000000000
+    - _serializedGuid: b0100000-0000-0000-0000-000000000000
+    - _serializedGuid: b1000000-0000-0000-0000-000000000000
+    - _serializedGuid: c0500000-0000-0000-0000-000000000000
+    - _serializedGuid: c5000000-0000-0000-0000-000000000000
+    - _serializedGuid: d0400000-0000-0000-0000-000000000000
+    - _serializedGuid: d4000000-0000-0000-0000-000000000000
+    - _serializedGuid: e2300000-0000-0000-0000-000000000000
+    - _serializedGuid: e3200000-0000-0000-0000-000000000000
+    - _serializedGuid: f1200000-0000-0000-0000-000000000000
+    - _serializedGuid: f2100000-0000-0000-0000-000000000000
+    _values:
+    - PortalGuid:
+        _serializedGuid: a0300000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 40000000-0000-0000-0000-000000000000
+    - PortalGuid:
+        _serializedGuid: a3000000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 10000000-0000-0000-0000-000000000000
+    - PortalGuid:
+        _serializedGuid: b0100000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 20000000-0000-0000-0000-000000000000
+    - PortalGuid:
+        _serializedGuid: b1000000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 10000000-0000-0000-0000-000000000000
+    - PortalGuid:
+        _serializedGuid: c0500000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 60000000-0000-0000-0000-000000000000
+    - PortalGuid:
+        _serializedGuid: c5000000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 10000000-0000-0000-0000-000000000000
+    - PortalGuid:
+        _serializedGuid: d0400000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 50000000-0000-0000-0000-000000000000
+    - PortalGuid:
+        _serializedGuid: d4000000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 10000000-0000-0000-0000-000000000000
+    - PortalGuid:
+        _serializedGuid: e2300000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 40000000-0000-0000-0000-000000000000
+    - PortalGuid:
+        _serializedGuid: e3200000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 30000000-0000-0000-0000-000000000000
+    - PortalGuid:
+        _serializedGuid: f1200000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 30000000-0000-0000-0000-000000000000
+    - PortalGuid:
+        _serializedGuid: f2100000-0000-0000-0000-000000000000
+      TargetCellGuid:
+        _serializedGuid: 20000000-0000-0000-0000-000000000000
+  StartCellGuid:
+    _serializedGuid: 10000000-0000-0000-0000-000000000000
+  ViewportPosition: {x: 0, y: 0}
+  ViewportZoomLevel: 0

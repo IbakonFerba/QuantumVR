@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xmlns:qvr="FK.QuantumVR.Editor.UIElements"
+        xmlns:fk="FK.UIElements"
+
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        FK.QuantumVR.Editor.UIElements ../../../../../UIElementsSchema/FK.QuantumVR.Editor.UIElements.xsd
+                        FK.UIElements ../../../../../UIElementsSchema/FK.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+    <engine:VisualElement name="guidContainer" class="row guid-container">
+        <engine:TextElement text="Portal Guid: "/>
+        <engine:TextElement name="portalGuidDisplay" text="Portal Guid"/>
+    </engine:VisualElement>
+    <engine:VisualElement name="infoBox" class="warning-box">
+        <engine:TextElement text="Never manually move a portal from one Spatial Cell to another! Use the Spatial Cell Map editor for that!"/>
+    </engine:VisualElement>
+    <engine:Button name="selectReversePortalButton" class="big-button" text="Select Reverse Portal"/>
+</engine:UXML>

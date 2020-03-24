@@ -1,0 +1,162 @@
+/*General*/
+.NodeView {
+    width: 250px;
+}
+
+.NodeView:disabled {
+    opacity: 1;
+}
+
+.selection-highlight {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    
+    margin: -5px;
+    
+    background-color: #407FC9;
+}
+
+
+/*Connection Button*/
+.connection-button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    
+    margin: -10px;
+    border-width: 0;
+    
+    background-image: none;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.4);
+}
+
+.connection-button.selected {
+    margin: -15px;
+}
+
+.connection-button:hover {
+    background-image: resource("Images/white");
+}
+
+.connection-button:active {
+    background-image: resource("Images/black");
+}
+
+.connection-button:disabled {
+    opacity: 1;
+    background-image: resource("Images/black");
+}
+
+
+/*Content*/
+.node-content {
+    padding: 10px;
+    opacity: 1;
+    background-color: #3F3F3F;
+}
+
+.node-content:disabled {
+    opacity: 1;
+}
+
+.node-header {
+    flex-direction: row;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+
+/*Name Field*/
+.node-name-field {
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.node-name-field:hover {
+    background-color: rgba(220, 220, 220, 0.2);
+}
+
+.node-name-field > TextInput {
+    border-width: 0;
+    flex: 1 0 0;
+
+    font-size: 19px;
+
+    color: #dcdcdc;
+    background-color: rgba(0, 0, 0, 0);
+    --unity-cursor-color: #dcdcdc;
+    --unity-selection-color: rgba(64, 127, 201, 0.5);
+
+    background-image: resource("Images/TextFieldLine");
+    -unity-slice-left: 0;
+    -unity-slice-right: 0;
+    -unity-slice-top: 0;
+    -unity-slice-bottom: 0;
+}
+
+
+/*Header Button*/
+.node-header-button {
+    width: 25px;
+    margin: 0 0 0 2px;
+    padding: 0;
+    border-width: 0;
+
+    background-color: rgba(0,0,0,0);
+}
+
+.node-header-button:hover {
+    background-color: rgba(220, 220, 220, 0.2);
+}
+
+.node-header-button:active {
+    background-color: rgba(220, 220, 220, 0.5);
+}
+
+
+/*Buttons*/
+.color-button {
+    background-image: resource("Images/Palette");
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-slice-left: 0;
+    -unity-slice-right: 0;
+    -unity-slice-top: 0;
+    -unity-slice-bottom: 0;
+}
+
+.delete-button {
+    background-image: resource("Images/DeleteNodeButton");
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-slice-left: 0;
+    -unity-slice-right: 0;
+    -unity-slice-top: 0;
+    -unity-slice-bottom: 0;
+}
+
+
+/*Content Button*/
+.content-button {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    
+    font-size: 15px;
+    
+    background-color: #dcdcdc;
+    color: #1e1e1e;
+
+    background-image: none;
+}
+
+.content-button:hover {
+    background-color: rgba(200, 200, 200, 1);
+}
+
+.content-button:active {
+    background-color: rgba(150, 150, 150, 1);
+}

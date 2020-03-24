@@ -1,0 +1,15 @@
+﻿{
+    "name": "QuantumVRRuntime",
+    "references": [
+        "GUID:67dac78419a6e6247be02dea65eec78c",
+        "GUID:3a739fa657ced2a45b683ac6c3835248"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

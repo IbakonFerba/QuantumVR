@@ -1,0 +1,85 @@
+SliderInt, MinMaxSlider {
+    padding-right: 1px;
+    padding-left: 1px;
+    flex-grow: 1;
+}
+
+.container {
+    padding: 10px;
+}
+
+.horizontal-container
+{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.vertically-spaced-element {
+    margin-top: 20px;
+}
+
+.spacer {
+    width: 10px;
+}
+
+.full-flex {
+    flex-grow: 1;
+}
+
+.toolbar {
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 30px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.section-label {
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    -unity-font-style: bold;
+}
+
+.value-label {
+    font-size: 15px;
+    -unity-font-style: normal;
+}
+
+.slider-value-field {
+    width: 40px;
+}
+
+.toolbar-button {
+    -unity-text-align: middle-center;
+}
+
+.confirm-button {
+    -unity-background-image-tint-color: #a0f0a0;
+    background-color: #a0f0a0;
+}
+.save-button-dirty {
+    -unity-background-image-tint-color: #f0c6a0;
+   background-color: #f0c6a0;
+}
+
+.path-button {
+    -unity-text-align: middle-left;
+}
+
+.logo {
+    background-image: url("Images/Logo512.png");
+    -unity-background-scale-mode: scale-to-fit;
+    margin: 2px auto 4px 10px;
+    max-width: 50px;
+    flex-grow: 1;
+}
+
+.big-logo {
+    background-image: url("Images/LogoName1024.png");
+    -unity-background-scale-mode: scale-to-fit;
+    height: 100px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

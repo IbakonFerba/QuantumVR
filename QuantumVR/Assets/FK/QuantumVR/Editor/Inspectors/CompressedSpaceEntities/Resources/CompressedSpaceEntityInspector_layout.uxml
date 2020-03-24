@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:engine="UnityEngine.UIElements"
+        xmlns:editor="UnityEditor.UIElements"
+        xmlns:qvr="FK.QuantumVR.Editor.UIElements"
+        xmlns:fk="FK.UIElements"
+
+        xsi:noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd"
+        xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        FK.QuantumVR.Editor.UIElements ../../../../../UIElementsSchema/FK.QuantumVR.Editor.UIElements.xsd
+                        FK.UIElements ../../../../../UIElementsSchema/FK.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+    <engine:VisualElement name="root" class="root">
+        <engine:VisualElement name="guidContainer" class="row guid-container">
+            <engine:TextElement text="Cell Guid: "/>
+            <engine:TextElement name="guidDisplay" text="Cell Guid"/>
+        </engine:VisualElement>
+        <editor:PropertyField name="staticField" binding-path="Static" tooltip="If true, the entity cannot go through portals. If you know it won't need to then check this, as it might have a positive impact on performance"/>
+        <engine:VisualElement name="no-collider-warning-container">
+        <engine:VisualElement name="no-collider-warning" class="warning-box">
+            <engine:TextElement text="This Object is not QuantumVR static but does not have a collider. This means that it will behave as if it were QuantumVR static and will not be able to pass through Portals. Consider giving it a collider!"/>
+        </engine:VisualElement>
+        </engine:VisualElement>
+        <editor:PropertyField name="isPlayerPartField" binding-path="IsPlayerPart" tooltip="If true, the object will start off in the spatial cell set as initial spatial cell in the Spatial Cell Map Editor"/>
+    </engine:VisualElement>
+</engine:UXML>

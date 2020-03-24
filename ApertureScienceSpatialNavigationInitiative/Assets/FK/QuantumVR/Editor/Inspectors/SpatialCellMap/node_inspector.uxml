@@ -1,0 +1,12 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:ue="UnityEditor.UIElements">
+    <ui:VisualElement name="container" class="list-container">
+        <ue:PropertyField name="cell-guid-field" label="Cell Guid"/>
+        <ui:Foldout name="connections-foldout" text="Connections">
+            <ui:VisualElement name="connections-list">
+                
+            </ui:VisualElement>
+            <ui:Button name="add-connection-button" text="Add Connection"/>
+        </ui:Foldout>
+        <ui:Button name="delete-button" text="Remove Node"/>
+    </ui:VisualElement>
+</UXML>

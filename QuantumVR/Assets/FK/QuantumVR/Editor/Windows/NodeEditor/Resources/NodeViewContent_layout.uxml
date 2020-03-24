@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:ue="UnityEditor.UIElements"
+    xmlns:qvr="FK.QuantumVR.Editor.UIElements"
+    xmlns:fk="FK.UIElements"
+
+xsi:noNamespaceSchemaLocation="../../../../../../../UIElementsSchema/UIElements.xsd"
+xsi:schemaLocation="
+                        UnityEngine.UIElements ../../../../../../../UIElementsSchema/UnityEngine.UIElements.xsd
+                        UnityEditor.UIElements ../../../../../../../UIElementsSchema/UnityEditor.UIElements.xsd
+                        FK.QuantumVR.Editor.UIElements ../../../../../../../UIElementsSchema/FK.QuantumVR.Editor.UIElements.xsd
+                        FK.UIElements ../../../../../../../UIElementsSchema/FK.UIElements.xsd
+                        UnityEditor.PackageManager.UI ../../../../../../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
+"
+>
+    <ui:VisualElement name="header" class="node-header">
+        <ui:TextField name="cellName" class="node-name-field rounded"/>
+        <fk:ColorButton name="colorButton" class="node-header-button color-button rounded" show-color-as-background="false" show-color-as-background-image-tint="false"/>
+        <ui:Button name="deleteButton" class="node-header-button delete-button rounded"/>
+    </ui:VisualElement>
+    <ui:Button name="editButton" class="content-button rounded"/>
+</ui:UXML>

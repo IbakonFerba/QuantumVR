@@ -1,0 +1,6 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:ue="UnityEditor.UIElements">
+    <ui:VisualElement name="container" class="button-container">
+        <ue:PropertyField name="connection-guid-field" label="Connection Guid"/>
+        <ui:Button name="delete-button" text="Remove Connection"/>
+    </ui:VisualElement>
+</UXML>

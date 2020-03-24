@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c878b9becc98604b86b376cc538e432, type: 3}
+  m_Name: SpatialCellMap_TestingCircular
+  m_EditorClassIdentifier: 
+  Nodes:
+    _keys:
+    - _serializedGuid: 51b8dadb-1047-4142-9025-966aadaf37e6
+    - _serializedGuid: dcb42ff3-61c9-475e-989b-ca490c64d73f
+    - _serializedGuid: ecb58181-dcbd-46a8-9577-59453a0d1262
+    _values:
+    - CellGuid:
+        _serializedGuid: 51b8dadb-1047-4142-9025-966aadaf37e6
+      Connections:
+      - _serializedGuid: 494a3730-0b49-4271-8b63-bec1470195bb
+      - _serializedGuid: 75a1abdf-8547-41e8-83d2-dec47a015ea0
+      Color: {r: 1, g: 0.58000004, b: 0.99300003, a: 1}
+      Name: Cell0
+      Position: {x: 107, y: -39}
+    - CellGuid:
+        _serializedGuid: dcb42ff3-61c9-475e-989b-ca490c64d73f
+      Connections:
+      - _serializedGuid: 6c302832-ee10-4ee8-9a24-36a254ab4620
+      Color: {r: 0.8190851, g: 0.5803922, b: 1, a: 1}
+      Name: Cell1
+      Position: {x: 615, y: 225}
+    - CellGuid:
+        _serializedGuid: ecb58181-dcbd-46a8-9577-59453a0d1262
+      Connections:
+      - _serializedGuid: 448483ae-c4f1-4be0-88b5-897fc1eb484e
+      Color: {r: 0.58000004, g: 0.58000004, b: 1, a: 1}
+      Name: Cell2
+      Position: {x: -220, y: 311}
+  Connections:
+    _keys:
+    - _serializedGuid: 6c302832-ee10-4ee8-9a24-36a254ab4620
+    - _serializedGuid: 494a3730-0b49-4271-8b63-bec1470195bb
+    - _serializedGuid: 448483ae-c4f1-4be0-88b5-897fc1eb484e
+    - _serializedGuid: 75a1abdf-8547-41e8-83d2-dec47a015ea0
+    _values:
+    - PortalGuid:
+        _serializedGuid: 6c302832-ee10-4ee8-9a24-36a254ab4620
+      TargetCellGuid:
+        _serializedGuid: 51b8dadb-1047-4142-9025-966aadaf37e6
+      StartCellGuid:
+        _serializedGuid: dcb42ff3-61c9-475e-989b-ca490c64d73f
+      ReversePortalGuid:
+        _serializedGuid: 494a3730-0b49-4271-8b63-bec1470195bb
+    - PortalGuid:
+        _serializedGuid: 494a3730-0b49-4271-8b63-bec1470195bb
+      TargetCellGuid:
+        _serializedGuid: dcb42ff3-61c9-475e-989b-ca490c64d73f
+      StartCellGuid:
+        _serializedGuid: 51b8dadb-1047-4142-9025-966aadaf37e6
+      ReversePortalGuid:
+        _serializedGuid: 6c302832-ee10-4ee8-9a24-36a254ab4620
+    - PortalGuid:
+        _serializedGuid: 448483ae-c4f1-4be0-88b5-897fc1eb484e
+      TargetCellGuid:
+        _serializedGuid: 51b8dadb-1047-4142-9025-966aadaf37e6
+      StartCellGuid:
+        _serializedGuid: ecb58181-dcbd-46a8-9577-59453a0d1262
+      ReversePortalGuid:
+        _serializedGuid: 75a1abdf-8547-41e8-83d2-dec47a015ea0
+    - PortalGuid:
+        _serializedGuid: 75a1abdf-8547-41e8-83d2-dec47a015ea0
+      TargetCellGuid:
+        _serializedGuid: ecb58181-dcbd-46a8-9577-59453a0d1262
+      StartCellGuid:
+        _serializedGuid: 51b8dadb-1047-4142-9025-966aadaf37e6
+      ReversePortalGuid:
+        _serializedGuid: 448483ae-c4f1-4be0-88b5-897fc1eb484e
+  StartCellGuid:
+    _serializedGuid: 51b8dadb-1047-4142-9025-966aadaf37e6
+  ViewportPosition: {x: 127, y: -642}
+  ViewportZoomOrigin: {x: 427, y: 716}
+  ViewportZoomLevel: 0.9000002

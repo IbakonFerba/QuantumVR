@@ -1,0 +1,19 @@
+﻿{
+    "name": "QuantumVR_Editor",
+    "references": [
+        "GUID:8eb2c78c8eb76d042a1db8acacbe8b07",
+        "GUID:67dac78419a6e6247be02dea65eec78c",
+        "GUID:3a739fa657ced2a45b683ac6c3835248",
+        "GUID:d0838a774c7f7d14487e3918ced83333"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

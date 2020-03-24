@@ -1,0 +1,7 @@
+<UXML xmlns:ui="UnityEngine.UIElements" xmlns:ue="UnityEditor.UIElements">
+    <ui:VisualElement name="container" class="list-container">
+        <ue:PropertyField name="portal-guid-field" label="Portal Guid"/>
+        <ue:PropertyField name="cell-guid-field" label="Target Cell Guid"/>
+        <ui:Button name="delete-button" text="Remove Connection"/>
+    </ui:VisualElement>
+</UXML>
